@@ -10,33 +10,3 @@
 html.whos-online-glow .topic-avatar.user-online img.avatar {
     box-shadow: 0 0 4px 3px #00ff64;
 }
-
-/*make buttons round*/
-
-.btn {
-  border-radius: 4px;
-
-.btn-flat.close {
-    box-shadow: none;
-  }
-}
-
-//remove shadow from a few buttons
-.d-editor-button-bar .btn,
-.bulk-select-all,
-.bulk-clear-all,
-.period-chooser-header,
-.topic-map .btn.no-text,
-.badge-section .btn,
-#revision .btn,
-#new-account-link,
-#login-link {
-  border-radius: 0;
-  box-shadow: none;
-}
-
-/*make wiki post green*/
-
-.wiki .topic-body {
-    background-color: #dcffdc; /*light green*
-}

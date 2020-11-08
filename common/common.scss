@@ -10,3 +10,12 @@
 html.whos-online-glow .topic-avatar.user-online img.avatar {
     box-shadow: 0 0 4px 3px #00ff64;
 }
+
+/*Round buttons*/
+.btn {
+  border-radius: 4px;
+  @include boxShadow;
+  &.btn-flat.close {
+    box-shadow: none;
+  }
+}

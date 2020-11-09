@@ -22,3 +22,11 @@ html.whos-online-glow .topic-avatar.user-online img.avatar {
 .names span.staff a {
    color: #FFFFFF;
 }
+
+/*Like post number*/
+
+nav.post-controls .actions a, nav.post-controls .actions button {
+    color: #c6c6c6;
+    margin-right: 2px;
+    display: inline-block;
+}

@@ -36,3 +36,15 @@ nav.post-controls .actions a, nav.post-controls .actions button {
 span.highlighted {
     background-color: #116899;
 }
+
+/*date plus times on topic*/
+
+.timeline-date-wrapper .start-date {
+  &:before {
+    content: "Return to top"; // Change the text here
+  }
+
+  .d-label {
+    display: none; // hide the topic OP date
+  }
+}

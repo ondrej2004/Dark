@@ -54,6 +54,10 @@ span.highlighted {
 .nav-pills>li a.active {
     color: var(--secondary);
     background-color: #0076ff;
+    border-top-right-radius: 6px;
+    border-bottom-left-radius: 6px;
+    border-top-left-radius: 1px;
+    border-bottom-right-radius: 1px;
 }
 
 /*Add blue to Admin settings*/

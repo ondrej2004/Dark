@@ -48,3 +48,21 @@ span.highlighted {
     display: none; // hide the topic OP date
   }
 }
+
+/*Buttons on homepage*/
+
+.nav-pills>li a.active {
+    color: var(--secondary);
+    background-color: #0076ff;
+}
+
+/*Add blue to Admin settings*/
+
+.nav-stacked a.active {
+    color: #000632;
+    background-color: #0076ff;
+}
+
+.post-controls .extra-buttons .accepted-text .d-icon, .post-controls .extra-buttons .accepted-text .accepted-label {
+    color: #00ff63;
+}

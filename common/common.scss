@@ -76,3 +76,11 @@ span.highlighted {
     background-color: #0076ff;
     border-radius: 6px;
 }
+
+/*User card background colour*/
+
+.user-card .card-content, .group-card .card-content {
+    padding: 10px;
+    background: #00000059;
+    margin-top: 80px;
+}

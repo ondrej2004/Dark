@@ -60,6 +60,15 @@ span.highlighted {
     border-bottom-right-radius: 1px;
 }
 
+.nav-pills>li>a:hover {
+    color: #FFFFFF;
+    background-color: #003C59;
+    border-top-right-radius: 6px;
+    border-bottom-left-radius: 6px;
+    border-top-left-radius: 1px;
+    border-bottom-right-radius: 1px;
+}
+
 /*Add blue to Admin settings*/
 
 .nav-stacked a.active {

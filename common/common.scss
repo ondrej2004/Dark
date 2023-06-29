@@ -1,3 +1,9 @@
+// Staff colour
+.moderator .regular>.cooked {
+    background-color: #069 !important;
+    border-radius: 10px;
+}
+
 // Staff colour Link underline
 .moderator .regular>.cooked a, .user-stream .item.moderator-action .title a {
     color: #efefef !important;

@@ -1,8 +1,6 @@
 // Staff colour
-.moderator {
-  .topic-body, .clearfix > .topic-meta-data > .names span.user-title a, .topic-body .cooked {
-    background: var(--tertiaty-low)!important;
-  }
+.moderator .regular>.cooked {
+  background-color: var(--tertiary-medium) !important;
 }
 
 // Staff colour Link underline

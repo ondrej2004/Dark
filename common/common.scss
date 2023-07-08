@@ -1,7 +1,8 @@
 // Staff colour
-.moderator .regular>.cooked {
-    background-color: #069 !important;
-    border-radius: 6px;
+.moderator {
+  .topic-body, .clearfix > .topic-meta-data > .names span.user-title a, .topic-body .cooked {
+    background: var(--tertiaty-low)!important;
+  }
 }
 
 // Staff colour Link underline
